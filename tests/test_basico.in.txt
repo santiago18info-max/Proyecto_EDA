@@ -1,8 +1,0 @@
-crear curriculum.txt
-insertar "Nombre: Juan Pérez" 1
-insertar "Dirección: Rivera 1234" 2
-insertar "Teléfono: 6111111" 3
-mostrar
-borrar 2
-mostrar
-borrar_archivo
