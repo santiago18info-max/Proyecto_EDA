@@ -1,0 +1,17 @@
+=== EDITOR DE TEXTO SIMPLE ===
+Para ver comandos disponibles, escriba 'ayuda'
+Modo batch detectado - ejecutando comandos desde entrada estándar
+Archivo 'test_contar.txt' creado exitosamente.
+El archivo tiene 0 líneas.
+Línea insertada en posición 1.
+El archivo tiene 1 líneas.
+Línea insertada en posición 2.
+El archivo tiene 2 líneas.
+Línea insertada en posición 3.
+El archivo tiene 3 líneas.
+Línea en posición 2 borrada.
+El archivo tiene 2 líneas.
+Línea en posición 1 borrada.
+El archivo tiene 1 líneas.
+Línea en posición 1 borrada.
+El archivo tiene 0 líneas.

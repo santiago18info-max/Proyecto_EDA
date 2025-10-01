@@ -1,0 +1,13 @@
+crear test_errores.txt
+insertar "Línea 1" 1
+insertar "Línea 2" 2
+insertar "Línea 3" 3
+mostrar
+# Probar inserción en posición inválida
+insertar "Error" 0
+insertar "Error" 10
+# Probar borrado en posición inválida
+borrar 0
+borrar 10
+mostrar
+borrar_archivo

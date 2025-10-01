@@ -1,0 +1,14 @@
+crear documento.txt
+insertar "Título: Mi Documento" 1
+insertar "Autor: Estudiante" 2
+insertar "Fecha: 2025" 3
+insertar "Introducción" 4
+insertar "Desarrollo" 5
+insertar "Conclusión" 6
+mostrar
+insertar "Resumen" 1
+mostrar
+borrar 3
+borrar 4
+mostrar
+borrar_archivo

@@ -1,0 +1,20 @@
+=== EDITOR DE TEXTO SIMPLE ===
+Para ver comandos disponibles, escriba 'ayuda'
+
+Modo batch detectado - ejecutando comandos desde entrada estándar
+
+Archivo 'curriculum.txt' creado exitosamente.
+Línea insertada en posición 1.
+Línea insertada en posición 2.
+Línea insertada en posición 3.
+curriculum.txt
+
+    1 Nombre: Juan Pérez
+    2 Dirección: Rivera 1234
+    3 Teléfono: 6111111
+Línea en posición 2 borrada.
+curriculum.txt
+
+    1 Nombre: Juan Pérez
+    2 Teléfono: 6111111
+Archivo borrado exitosamente.

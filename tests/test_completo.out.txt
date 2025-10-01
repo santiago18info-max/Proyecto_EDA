@@ -1,0 +1,40 @@
+=== EDITOR DE TEXTO SIMPLE ===
+Para ver comandos disponibles, escriba 'ayuda'
+
+Modo batch detectado - ejecutando comandos desde entrada estándar
+
+Archivo 'documento.txt' creado exitosamente.
+Línea insertada en posición 1.
+Línea insertada en posición 2.
+Línea insertada en posición 3.
+Línea insertada en posición 4.
+Línea insertada en posición 5.
+Línea insertada en posición 6.
+documento.txt
+
+    1 Título: Mi Documento
+    2 Autor: Estudiante
+    3 Fecha: 2025
+    4 Introducción
+    5 Desarrollo
+    6 Conclusión
+Línea insertada en posición 1.
+documento.txt
+
+    1 Resumen
+    2 Título: Mi Documento
+    3 Autor: Estudiante
+    4 Fecha: 2025
+    5 Introducción
+    6 Desarrollo
+    7 Conclusión
+Línea en posición 3 borrada.
+Línea en posición 4 borrada.
+documento.txt
+
+    1 Resumen
+    2 Título: Mi Documento
+    3 Fecha: 2025
+    4 Desarrollo
+    5 Conclusión
+Archivo borrado exitosamente.

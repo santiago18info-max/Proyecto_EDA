@@ -1,0 +1,58 @@
+=== EDITOR DE TEXTO SIMPLE ===
+Para ver comandos disponibles, escriba 'ayuda'
+
+Modo batch detectado - ejecutando comandos desde entrada estándar
+
+Archivo 'test_memoria.txt' creado exitosamente.
+Línea insertada en posición 1.
+Línea insertada en posición 2.
+Línea insertada en posición 3.
+Línea insertada en posición 4.
+Línea insertada en posición 5.
+test_memoria.txt
+
+    1 Línea 1
+    2 Línea 2
+    3 Línea 3
+    4 Línea 4
+    5 Línea 5
+Línea insertada en posición 1.
+test_memoria.txt
+
+    1 Línea 0
+    2 Línea 1
+    3 Línea 2
+    4 Línea 3
+    5 Línea 4
+    6 Línea 5
+Línea en posición 1 borrada.
+test_memoria.txt
+
+    1 Línea 1
+    2 Línea 2
+    3 Línea 3
+    4 Línea 4
+    5 Línea 5
+Línea en posición 5 borrada.
+test_memoria.txt
+
+    1 Línea 1
+    2 Línea 2
+    3 Línea 3
+    4 Línea 4
+Línea en posición 2 borrada.
+test_memoria.txt
+
+    1 Línea 1
+    2 Línea 3
+    3 Línea 4
+Línea en posición 1 borrada.
+test_memoria.txt
+
+    1 Línea 3
+    2 Línea 4
+Línea en posición 1 borrada.
+test_memoria.txt
+
+    1 Línea 4
+Archivo borrado exitosamente.

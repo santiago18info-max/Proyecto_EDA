@@ -1,0 +1,8 @@
+crear test_alias.txt
+i "Primera línea" 1
+i "Segunda línea" 2
+m
+b 1
+m
+h
+q

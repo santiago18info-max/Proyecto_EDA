@@ -1,0 +1,10 @@
+crear ejemplo_obligatorio.txt
+insertar "Dirección: Rivera 1234" 1
+insertar "Teléfono: 6111111" 2
+insertar "Nombre: Juan Pérez" 1
+insertar "Estado Civil: Soltero" 4
+mostrar
+borrar 3
+borrar 3
+mostrar
+borrar_archivo

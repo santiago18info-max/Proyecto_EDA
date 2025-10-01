@@ -1,0 +1,43 @@
+=== EDITOR DE TEXTO SIMPLE ===
+Para ver comandos disponibles, escriba 'ayuda'
+
+Modo batch detectado - ejecutando comandos desde entrada estándar
+
+Archivo 'test_limites.txt' creado exitosamente.
+Línea insertada en posición 1.
+Línea insertada en posición 2.
+Línea insertada en posición 3.
+test_limites.txt
+
+    1 Primera línea
+    2 Segunda línea
+    3 Tercera línea
+Línea insertada en posición 4.
+test_limites.txt
+
+    1 Primera línea
+    2 Segunda línea
+    3 Tercera línea
+    4 Línea final
+Línea insertada en posición 5.
+test_limites.txt
+
+    1 Primera línea
+    2 Segunda línea
+    3 Tercera línea
+    4 Línea final
+    5 Línea extra
+Línea en posición 5 borrada.
+test_limites.txt
+
+    1 Primera línea
+    2 Segunda línea
+    3 Tercera línea
+    4 Línea final
+Línea en posición 4 borrada.
+test_limites.txt
+
+    1 Primera línea
+    2 Segunda línea
+    3 Tercera línea
+Archivo borrado exitosamente.

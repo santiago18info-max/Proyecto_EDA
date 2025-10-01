@@ -1,0 +1,20 @@
+crear test_memoria.txt
+insertar "Línea 1" 1
+insertar "Línea 2" 2
+insertar "Línea 3" 3
+insertar "Línea 4" 4
+insertar "Línea 5" 5
+mostrar
+insertar "Línea 0" 1
+mostrar
+borrar 1
+mostrar
+borrar 5
+mostrar
+borrar 2
+mostrar
+borrar 1
+mostrar
+borrar 1
+mostrar
+borrar_archivo
