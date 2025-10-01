@@ -1,37 +1,43 @@
 #ifndef EDITOR_H
 #define EDITOR_H
 
-#include <stdbool.h>
+// ==========================================================
+// Definiciones de tipos
+// ==========================================================
 
-// Estructura para representar una línea de texto
-typedef struct Line {
-    char *text;
-    struct Line *next;
-    struct Line *prev;
-} Line;
-/* Prototipo para la estructura de línea y funciones auxiliares */
+// Resultado de las operaciones
+typedef enum {
+    OK,
+    ERROR,
+    NO_IMPLEMENTADO
+} TipoRet;
 
-// Crea una nueva línea con el texto dado
-Line* line_create(const char *text);
+// Estructura del archivo (opaca, implementada en .c)
+typedef struct archivo* Archivo;
 
-// Libera la memoria de una línea
-void line_destroy(Line *line);
-// Estructura para el editor
-typedef struct Editor {
-    Line *head;
-    Line *tail;
-    Line *current;
-    int num_lines;
-} Editor;
+// ==========================================================
+// Prototipos de funciones del "módulo editor"
+// ==========================================================
 
+// Crear un archivo nuevo con el nombre dado
+Archivo CrearArchivo(const char *nombre);
 
-// Funciones del editor
-Editor* editor_create();
-void editor_destroy(Editor *editor);
+// Insertar una línea en la posición indicada
+// archivo: puntero al archivo actual
+// linea: contenido de la línea
+// pos: posición (1 = primera línea)
+TipoRet InsertarLinea(Archivo *archivo, const char *linea, unsigned int pos);
 
-bool editor_insert_line(Editor *editor, const char *text, int position);
-bool editor_delete_line(Editor *editor, int position);
-const char* editor_get_line(Editor *editor, int position);
-void editor_print(Editor *editor);
+// Borrar una línea en la posición indicada
+TipoRet BorrarLinea(Archivo *archivo, unsigned int pos);
+
+// Mostrar el contenido completo del archivo
+TipoRet MostrarTexto(Archivo archivo);
+
+// Contar el número de líneas del archivo
+TipoRet ContarLineas(Archivo archivo, unsigned int *cantidad);
+
+// Borrar todo el archivo (liberar memoria)
+TipoRet BorrarArchivo(Archivo *archivo);
 
 #endif // EDITOR_H
